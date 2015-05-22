@@ -1,0 +1,15 @@
+default:
+    suites:
+        default:
+            paths:
+                - %paths.base%/src/AppBundle/Tests/Behat/Features
+            contexts:
+                - AppBundle\Tests\Behat\Contexts\FeatureContext:
+                    guzzle:
+                        # change to API Base URL
+                        base_url: http://api.example.com
+                        exceptions: false
+                        allow_redirects: true
+    extensions: ~
+    testers:
+        rerun_cache: .behat_rerun_cache
