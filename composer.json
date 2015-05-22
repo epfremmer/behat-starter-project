@@ -1,0 +1,29 @@
+{
+    "name": "behat/api",
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "~5.0",
+        "guzzlehttp/log-subscriber": "~1.0",
+        "phpunit/phpunit": "~4.1",
+        "sensio/generator-bundle": "~2.3",
+        "behat/behat": "~3.0",
+        "behat/symfony2-extension": "~2.0",
+        "behat/mink": "~1.6",
+        "behat/mink-extension": "~2.0",
+        "behat/mink-browserkit-driver": "~1.2"
+    },
+    "require-dev": {
+
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+
+    }
+}
