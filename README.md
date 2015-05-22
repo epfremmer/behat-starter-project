@@ -23,6 +23,9 @@ Behat functional testing of their API application
 1. Change the base_url Guzzle config value to your API's base url
 1. Run Behat tests `bin/behat`
 
+note: you may need to update the behat config & feature context namespaces 
+      to work with your existing project namespace
+
 ### How it works
 
 Behat is split into two main components feature files & context classes. 
