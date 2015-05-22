@@ -8,9 +8,9 @@ Behat functional testing of their API application
 ## Structure (src)
 
 ├── Tests (project's tests directory)
-|   ├── Contexts
-|   |   ├── FeatureContext.php (php code that runs the tests)
 |   ├── Features
+|   |   ├── Context
+|   |   |   ├── FeatureContext.php (php code that runs the tests)
 |   |   ├── default.feature (gherkin syntax tests)
 ├── behat.yml.dist (will use dist file by default - rename to behat.yml for local changes only)
 

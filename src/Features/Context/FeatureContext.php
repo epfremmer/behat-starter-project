@@ -6,7 +6,7 @@
  * @subpackage Behat
  */
 
-namespace AppBundle\Tests\Behat\Contexts;
+namespace AppBundle\Tests\Features\Context;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
