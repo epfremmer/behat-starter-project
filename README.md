@@ -47,6 +47,8 @@ Visit the documentation for more information [http://docs.behat.org/en/latest/](
 
 ### Jetbrains Plugins
 
+Add Behat support and click-through functionality to Jetbrains IDE
+
 * [Behat](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAA&url=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7300%3Fpr%3D&ei=-5hfVbzfLca2ogSHsIKoDw&usg=AFQjCNFIzPaANIXfYu9vMeNL5LjVYJiotQ)
 * [Behat Support](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCUQFjAB&url=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7512%3Fpr%3DphpStorm&ei=-5hfVbzfLca2ogSHsIKoDw&usg=AFQjCNFAkiXAhRzik2E8W-riAJ_FrpUWVw)
 
