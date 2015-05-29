@@ -1,12 +1,11 @@
 <?php
 /**
- * FeatureContext.php
+ * ApiContext.php
  *
  * @package    Tests
  * @subpackage Behat
  */
-
-namespace AppBundle\Tests\Features\Context;
+namespace Features\Context;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
@@ -31,7 +30,7 @@ use PHPUnit_Framework_Assert;
  *
  * @author Edward Pfremmer <epfremme@nerdery.com>
  */
-class FeatureContext implements Context, SnippetAcceptingContext
+class ApiContext implements Context, SnippetAcceptingContext
 {
 
     // request methods
