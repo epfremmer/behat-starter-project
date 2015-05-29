@@ -1,15 +1,24 @@
 default:
     suites:
-        default:
+        api:
             paths:
-                - %paths.base%/src/AppBundle/Tests/Behat/Features
+                - %paths.base%/src/Features/api
             contexts:
-                - AppBundle\Tests\Behat\Contexts\FeatureContext:
+                - Features\Context\ApiContext:
                     guzzle:
                         # change to API Base URL
-                        base_url: http://api.example.com
+                        base_url: http://api.mac.dev
                         exceptions: false
                         allow_redirects: true
-    extensions: ~
+        web:
+            paths:
+                - %paths.base%/src/Features/web
+            contexts:
+                - Features\Context\MinkContext:
+    extensions:
+        Behat\MinkExtension:
+            sessions:
+                foo_session:
+                    goutte: ~
     testers:
         rerun_cache: .behat_rerun_cache
